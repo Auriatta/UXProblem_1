@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metoda STAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio: Metoda STAR</h1>
+    </header>
+    <main>
+        <section class="star-card">
+            <div class="image-container">
+                <img src="images/example.jpg" alt="Przykładowy obrazek" id="star-image">
+            </div>
+            <div class="content">
+                <h2>Situation</h2>
+                <p>Opisz kontekst sytuacji.</p>
+
+                <h2>Task</h2>
+                <p>Jakie zadanie było do wykonania?</p>
+
+                <h2>Action</h2>
+                <p>Jakie podjęto działania?</p>
+
+                <h2>Result</h2>
+                <p>Jakie były wyniki podjętych działań?</p>
+            </div>
+        </section>
+        <section class="image-upload">
+            <label for="image-upload-input">Podmień obrazek:</label>
+            <input type="file" id="image-upload-input" accept="image/*">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Twoje Imię</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
